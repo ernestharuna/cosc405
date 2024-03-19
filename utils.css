@@ -1,0 +1,47 @@
+.container {
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 40px;
+}
+
+/* colors */
+.orange {
+    background: #FF9400;
+}
+
+.blue {
+    background: #00FEFE;
+}
+
+.peach {
+    background: #FF7E79;
+}
+
+.green {
+    background: #00F801;
+}
+
+/* text */
+.text-secondary {
+    color: #5e5e5e;
+}
+
+.fw-bold {
+    font-weight: 900;
+}
+
+.fw-semibold {
+    font-weight: 600;
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
