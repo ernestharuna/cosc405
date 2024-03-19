@@ -31,6 +31,14 @@
     color: #5e5e5e;
 }
 
+.text-dark {
+    color: #000;
+}
+
+.text-decoration-none {
+    text-decoration: none !important;
+}
+
 .fw-bold {
     font-weight: 900;
 }
