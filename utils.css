@@ -5,10 +5,40 @@
 
 .grid-container {
     display: grid;
+    max-width: max-content;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px 40px;
+    gap: 20px 10px;
+}
+.center{
+    margin: 0px auto;
 }
 
+.input-container{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    gap:30px 40px;
+    margin-top: 3px;
+    font-weight: 700;
+}
+input,textarea,select{
+height: 22px;
+    border:solid #000 7px;
+    border-top:solid 3px;
+    border-radius: 7px;
+    width: 300px;
+}
+textarea{
+    height: initial;
+    resize: none;
+}
+select{
+    height: 33px;
+    width: 150px;
+}
+label{
+    width: 100px;
+}
 /* colors */
 .orange {
     background: #FF9400;
