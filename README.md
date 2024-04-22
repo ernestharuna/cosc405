@@ -79,6 +79,5 @@ This repository contains HTML and CSS files for a web project. Follow the instru
 
 ## Additional Notes
 
-- It's recommended to create a new branch for your changes if you're working on a new feature or bug fix. You can do this using the `git checkout -b <branch_name>` command.
-- Remember to pull the latest changes from the remote repository before starting any new work to avoid conflicts.
+- Table schema can be found in the database folder of the repository.
 
