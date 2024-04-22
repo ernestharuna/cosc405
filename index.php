@@ -20,19 +20,21 @@
         <div class="grid-container">
             <!-- boxes -->
             <div class="">
-                <a href="list.html">
+                <a href="list.php">
                     <img src="assets/all-news.jpg" alt="all-news">
                 </a>
             </div>
             
             <div class="">
-                <a href="list.html"><img src="assets/politics.jpg" alt="politics"></a>
+                <a href="list.php?category=politics"><img src="assets/politics.jpg" alt="politics"></a>
             </div>
+
             <div class="">
-                <a href="list.html"><img src="assets/sports.jpg" alt="sports" srcset=""></a>
+                <a href="list.php?category=sports"><img src="assets/sports.jpg" alt="sports" srcset=""></a>
             </div>
+            
             <div class="">
-                <a href="list.html"><img src="assets/technology.jpg" alt="technology " srcset=""></a>
+                <a href="list.php?category=technology"><img src="assets/technology.jpg" alt="technology " srcset=""></a>
             </div>
         </div>
 
