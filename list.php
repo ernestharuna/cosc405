@@ -27,18 +27,14 @@
                 die("Connection failed: " . $conn->connect_error);
             }
 
-            // Check if category parameter is set in the URL
             if (isset($_GET['category'])) {
-                // Filter resources based on the category parameter
                 $category = $_GET['category'];
                 $sql = "SELECT id, title, summary, submittor FROM news_item WHERE category = '$category'";
             } else {
-                // If category parameter is not set, retrieve all resources
                 $sql = "SELECT id, title, summary, submittor FROM news_item";
             }
 
             $result = $conn->query($sql);
-
             if ($result->num_rows > 0) {
                 while ($row = $result->fetch_assoc()) {
         ?>

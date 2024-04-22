@@ -32,14 +32,14 @@
             <div class="">
                 <a href="list.php?category=sports"><img src="assets/sports.jpg" alt="sports" srcset=""></a>
             </div>
-            
+
             <div class="">
                 <a href="list.php?category=technology"><img src="assets/technology.jpg" alt="technology " srcset=""></a>
             </div>
         </div>
 
         <div id="">
-            <a href="add.html"><img src="assets/add.jpg" alt="add-news"></a>
+            <a href="add.php"><img src="assets/add.jpg" alt="add-news"></a>
         </div>
     </main>
     <footer class="container">
